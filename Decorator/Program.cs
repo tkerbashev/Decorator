@@ -1,8 +1,7 @@
 ﻿using Decorator;
 
 Console.Title = "Decorator";
-Console.WriteLine( "Decorator Structural Design Pattern example" );
-Console.WriteLine();
+Console.WriteLine( "Decorator Structural Design Pattern example\n" );
 
 var comeHomeByBus = new ComeHomeByBus();
 var comeHomeByCar = new ComeHomeByCar();
